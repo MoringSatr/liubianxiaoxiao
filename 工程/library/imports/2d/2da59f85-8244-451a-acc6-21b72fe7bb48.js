@@ -1,5 +1,11 @@
+"use strict";
+cc._RF.push(module, '2da59+FgkRFGqzGIbcv57tI', 'TipCp');
+// script/TipCp.js
+
+"use strict";
+
 cc.Class({
-    "extends": cc.Component,
+    extends: cc.Component,
 
     properties: {
         // foo: {
@@ -20,8 +26,10 @@ cc.Class({
         this.node.runAction(cc.sequence(cc.spawn(cc.fadeOut(1), cc.moveBy(1, cc.p(0, 100))), cc.removeSelf(true)));
     }
 
-});
-// called every frame, uncomment this function to activate update callback
-// update: function (dt) {
+    // called every frame, uncomment this function to activate update callback
+    // update: function (dt) {
 
-// },
+    // },
+});
+
+cc._RF.pop();

@@ -1,3 +1,9 @@
+"use strict";
+cc._RF.push(module, '73810un/L9B+7ptubQfLvHy', 'InitLBXFrame');
+// script/gameCore/InitLBXFrame.js
+
+"use strict";
+
 var _properties;
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
@@ -16,25 +22,25 @@ var Util = require('Util');
 var theScore = 0;
 
 cc.Class({
-    "extends": cc.Component,
+    extends: cc.Component,
 
     properties: (_properties = {}, _defineProperty(_properties, "bianchanggezishu", 5), _defineProperty(_properties, "liubianxingH", 0), _defineProperty(_properties, "liubianxingA", 0), _defineProperty(_properties, "framePic", {
-        "default": null,
+        default: null,
         type: cc.SpriteFrame
     }), _defineProperty(_properties, "bian", {
-        "default": null,
+        default: null,
         type: cc.SpriteFrame
     }), _defineProperty(_properties, "xiaochuSound", {
-        "default": null,
+        default: null,
         url: cc.AudioClip
     }), _defineProperty(_properties, "shuPrefab", {
-        "default": null,
+        default: null,
         type: cc.Prefab
     }), _defineProperty(_properties, "boomEffPrefab", {
-        "default": null,
+        default: null,
         type: cc.Prefab
     }), _defineProperty(_properties, "tipPrefab", {
-        "default": null,
+        default: null,
         type: cc.Prefab
     }), _properties),
 
@@ -335,6 +341,7 @@ cc.Class({
             // labelCp.fontSize = 18
             // labelNode.parent = node
 
+
             node.parent = this.node;
 
             node.FKIndex = index;
@@ -365,3 +372,5 @@ cc.Class({
     }
 
 });
+
+cc._RF.pop();

@@ -1,7 +1,11 @@
+"use strict";
+cc._RF.push(module, '1e722mUEcZHqq0Plb9cwFF7', 'LoadCp');
+// script/LoadCp.js
 
+"use strict";
 
 cc.Class({
-    "extends": cc.Component,
+    extends: cc.Component,
 
     properties: {},
 
@@ -34,7 +38,7 @@ cc.Class({
         // 加载目录下所有资源
         var count = 0;
         for (var i = 0; i < resList.length; i++) {
-            cc.loader.loadResAll(resList[i], (function (i, err, assets) {
+            cc.loader.loadResAll(resList[i], function (i, err, assets) {
                 cc.myAssets[resList[i]] = assets;
                 cc.log("资源加载完成" + count);
                 count++;
@@ -44,15 +48,18 @@ cc.Class({
                     //     cc.audioEngine.playEffect(cc.url.raw(soundResList[j]), false, 0)
                     // }
 
+
                     //开始游戏
                     cc.director.loadScene("startScene");
                 }
-            }).bind(this, i));
+            }.bind(this, i));
         }
     }
 
-});
-// called every frame, uncomment this function to activate update callback
-// update: function (dt) {
+    // called every frame, uncomment this function to activate update callback
+    // update: function (dt) {
 
-// },
+    // },
+});
+
+cc._RF.pop();

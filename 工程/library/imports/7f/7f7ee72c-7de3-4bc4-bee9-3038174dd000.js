@@ -1,3 +1,9 @@
+"use strict";
+cc._RF.push(module, '7f7eecsfeNLxL7pMDgXTdAA', 'NewLBXKuai');
+// script/gameCore/NewLBXKuai.js
+
+'use strict';
+
 var _properties;
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
@@ -7,46 +13,46 @@ var Util = require('Util');
 var scaleParam = 0.7;
 
 cc.Class({
-    'extends': cc.Component,
+    extends: cc.Component,
 
     properties: (_properties = {
         checkerboard: {
-            'default': null,
+            default: null,
             type: InitLBXFrame
         }
 
     }, _defineProperty(_properties, "Kcount", 3), _defineProperty(_properties, "liubianxingH", 0), _defineProperty(_properties, "liubianxingA", 0), _defineProperty(_properties, "kuaiTex", {
-        'default': null,
+        default: null,
         type: cc.SpriteFrame
     }), _defineProperty(_properties, "color1", {
-        'default': null,
+        default: null,
         type: cc.SpriteFrame
     }), _defineProperty(_properties, "color2", {
-        'default': null,
+        default: null,
         type: cc.SpriteFrame
     }), _defineProperty(_properties, "color3", {
-        'default': null,
+        default: null,
         type: cc.SpriteFrame
     }), _defineProperty(_properties, "color4", {
-        'default': null,
+        default: null,
         type: cc.SpriteFrame
     }), _defineProperty(_properties, 'anSound', {
-        'default': null,
+        default: null,
         url: cc.AudioClip
     }), _defineProperty(_properties, 'fangxiaSound1', {
-        'default': null,
+        default: null,
         url: cc.AudioClip
     }), _defineProperty(_properties, 'fangxiaSound2', {
-        'default': null,
+        default: null,
         url: cc.AudioClip
     }), _defineProperty(_properties, 'fangxiaSound3', {
-        'default': null,
+        default: null,
         url: cc.AudioClip
     }), _defineProperty(_properties, 'canNotSound1', {
-        'default': null,
+        default: null,
         url: cc.AudioClip
     }), _defineProperty(_properties, 'canNotSound2', {
-        'default': null,
+        default: null,
         url: cc.AudioClip
     }), _properties),
 
@@ -100,8 +106,6 @@ cc.Class({
 
         [cc.p(0, 0), cc.p(h, -a * 1.5), cc.p(h * 2, -a * 3), cc.p(h * 3, -a * 4.5)], //斜扛1
         [cc.p(0, 0), cc.p(-h, -a * 1.5), cc.p(-h * 2, -a * 3), cc.p(-h * 3, -a * 4.5)]];
-
-        //斜扛2
 
         return configLists;
     },
@@ -277,6 +281,7 @@ cc.Class({
 
                 //这里做是否可以放的判断
 
+
                 for (var j = 1; j < children.length; j++) {
                     var len = 27; //碰撞距离
                     var childPos = cc.pAdd(srcPos, cc.p(children[j].x, children[j].y));
@@ -417,3 +422,5 @@ cc.Class({
 
     // },
 });
+
+cc._RF.pop();

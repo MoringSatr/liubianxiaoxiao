@@ -1,85 +1,186 @@
-2016-10-03T00:01:36.547Z - normal: Load ~/.CocosCreator/settings.json
-2016-10-03T00:01:36.563Z - normal: checking language setting...
-2016-10-03T00:01:36.563Z - normal: Language: zh
-2016-10-03T00:01:37.705Z - success: protocol editor-framework registered
-2016-10-03T00:01:37.705Z - success: protocol app registered
-2016-10-03T00:01:37.705Z - success: protocol packages registered
-2016-10-03T00:01:37.705Z - success: protocol theme registered
-2016-10-03T00:01:37.706Z - success: protocol unpack registerred
-2016-10-03T00:01:38.038Z - normal: connected!
-2016-10-03T00:01:38.041Z - normal: Check project F:\svn\lbxGame
-2016-10-03T00:01:38.047Z - normal: Initializing Cocos Creator Editor
-2016-10-03T00:01:38.698Z - normal: Initializing Cocos2d
-2016-10-03T00:01:38.917Z - normal: Initializing Asset Database
-2016-10-03T00:01:38.946Z - success: protocol uuid registerred
-2016-10-03T00:01:38.946Z - success: protocol db registerred
-2016-10-03T00:01:38.946Z - success: protocol thumbnail registerred
-2016-10-03T00:01:38.947Z - normal: Loading editor/builtin packages
-2016-10-03T00:01:39.107Z - success: assets loaded
-2016-10-03T00:01:39.113Z - success: builder loaded
-2016-10-03T00:01:39.118Z - success: hierarchy loaded
-2016-10-03T00:01:39.122Z - success: inspector loaded
-2016-10-03T00:01:39.123Z - success: keystore loaded
-2016-10-03T00:01:39.127Z - success: node-library loaded
-2016-10-03T00:01:39.129Z - success: preferences loaded
-2016-10-03T00:01:39.144Z - success: project-importer loaded
-2016-10-03T00:01:39.151Z - success: project-settings loaded
-2016-10-03T00:01:39.153Z - success: ui-kit loaded
-2016-10-03T00:01:39.155Z - success: ui-grid loaded
-2016-10-03T00:01:39.160Z - success: scene loaded
-2016-10-03T00:01:39.162Z - success: sprite-editor loaded
-2016-10-03T00:01:39.168Z - success: timeline loaded
-2016-10-03T00:01:39.168Z - normal: Loading builtin packages
-2016-10-03T00:01:39.172Z - success: asset-db-debugger loaded
-2016-10-03T00:01:39.178Z - success: cocos-package loaded
-2016-10-03T00:01:39.179Z - success: code-editor loaded
-2016-10-03T00:01:39.180Z - success: color-picker loaded
-2016-10-03T00:01:39.184Z - success: console loaded
-2016-10-03T00:01:39.187Z - success: package-manager loaded
-2016-10-03T00:01:39.191Z - success: tester loaded
-2016-10-03T00:01:39.193Z - success: ui-kit-preview-extra loaded
-2016-10-03T00:01:39.195Z - success: ui-kit-preview loaded
-2016-10-03T00:01:39.196Z - success: ui-tree loaded
-2016-10-03T00:01:39.240Z - normal: Initializing project F:\svn\lbxGame
-2016-10-03T00:01:39.252Z - normal: Loading packages
-2016-10-03T00:01:39.258Z - normal: Run Application
-2016-10-03T00:01:40.237Z - success: preview server running at http://localhost:7456
-2016-10-03T00:01:44.643Z - normal: 1.2.2
-2016-10-03T00:02:29.349Z - error: Build Failed: Error: ENOENT: no such file or directory, open 'C:\CocosCreator\resources\engine\bin\.cache\.excludes-min'
-    at Error (native)
-    at Object.fs.openSync (fs.js:634:18)
-    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:176:20)
-    at Object.fs.writeFileSync (fs.js:1337:33)
-    at Gulp.<anonymous> (C:\CocosCreator\resources\app.asar\editor\core\gulp-build.js:1:9484)
-    at module.exports (C:\CocosCreator\resources\app.asar\node_modules\orchestrator\lib\runTask.js:34:7)
-    at Gulp.Orchestrator._runTask (C:\CocosCreator\resources\app.asar\node_modules\orchestrator\index.js:273:3)
-    at Gulp.Orchestrator._runStep (C:\CocosCreator\resources\app.asar\node_modules\orchestrator\index.js:214:10)
-    at C:\CocosCreator\resources\app.asar\node_modules\orchestrator\index.js:279:18
-    at finish (C:\CocosCreator\resources\app.asar\node_modules\orchestrator\lib\runTask.js:21:8)
-    at C:\CocosCreator\resources\app.asar\editor\core\builder.js:1:904
-    at Gulp.doneCallback (C:\CocosCreator\resources\app.asar\editor\core\gulp-build.js:1:11433)
-    at Gulp.Orchestrator.stop (C:\CocosCreator\resources\app.asar\node_modules\orchestrator\index.js:150:9)
-    at C:\CocosCreator\resources\app.asar\node_modules\orchestrator\index.js:277:22
-    at finish (C:\CocosCreator\resources\app.asar\node_modules\orchestrator\lib\runTask.js:21:8)
-    at module.exports (C:\CocosCreator\resources\app.asar\node_modules\orchestrator\lib\runTask.js:36:10)
-    at Gulp.Orchestrator._runTask (C:\CocosCreator\resources\app.asar\node_modules\orchestrator\index.js:273:3)
-    at Gulp.Orchestrator._runStep (C:\CocosCreator\resources\app.asar\node_modules\orchestrator\index.js:214:10)
-    at C:\CocosCreator\resources\app.asar\node_modules\orchestrator\index.js:279:18
-2016-10-03T00:02:32.120Z - normal: Compiled successfully
-2016-10-03T00:03:46.587Z - normal: Compiled successfully
-2016-10-03T00:03:48.856Z - normal: 1.2.2
-2016-10-03T00:03:50.294Z - normal: Built to "F:\svn\lbxGame\build" successfully
-2016-10-03T00:22:11.170Z - normal: Compiled successfully
-2016-10-03T00:34:20.258Z - normal: Compiled successfully
-2016-10-03T00:34:23.486Z - normal: Compiled successfully
-2016-10-03T00:36:21.541Z - normal: Compiled successfully
-2016-10-03T00:36:25.563Z - normal: Compiled successfully
-2016-10-03T00:36:29.008Z - normal: Compiled successfully
-2016-10-03T00:38:43.100Z - normal: Compiled successfully
-2016-10-03T00:48:36.278Z - normal: Compiled successfully
-2016-10-03T00:49:17.777Z - normal: Compiled successfully
-2016-10-03T00:52:25.072Z - normal: Compiled successfully
-2016-10-03T00:53:07.835Z - normal: Compiled successfully
-2016-10-03T00:53:49.859Z - normal: Compiled successfully
-2016-10-03T00:54:53.968Z - normal: Compiled successfully
-2016-10-03T00:55:50.693Z - normal: Compiled successfully
+2018-09-13T15:44:21.255Z - normal: Load ~/.CocosCreator/settings.json
+2018-09-13T15:44:21.259Z - normal: checking language setting...
+2018-09-13T15:44:21.259Z - normal: Language: zh
+2018-09-13T15:44:21.898Z - success: protocol editor-framework registered
+2018-09-13T15:44:21.898Z - success: protocol app registered
+2018-09-13T15:44:21.899Z - success: protocol theme registered
+2018-09-13T15:44:21.899Z - success: protocol packages registered
+2018-09-13T15:44:21.899Z - success: protocol unpack registerred
+2018-09-13T15:44:21.899Z - success: protocol disable-commonjs registerred
+2018-09-13T15:44:22.007Z - normal: connected!
+2018-09-13T15:44:22.010Z - normal: Check project /Users/liubowen/workspace/creator-space/LBXGame/工程
+2018-09-13T15:44:22.015Z - normal: Initializing project /Users/liubowen/workspace/creator-space/LBXGame/工程
+2018-09-13T15:44:22.020Z - normal: Initializing Cocos2d
+2018-09-13T15:44:22.834Z - normal: Initializing Asset Database
+2018-09-13T15:44:22.881Z - success: protocol uuid registerred
+2018-09-13T15:44:22.881Z - success: protocol db registerred
+2018-09-13T15:44:22.881Z - success: protocol thumbnail registerred
+2018-09-13T15:44:22.882Z - normal: Loading editor/builtin packages
+2018-09-13T15:44:23.054Z - success: assets loaded
+2018-09-13T15:44:23.060Z - success: builder loaded
+2018-09-13T15:44:23.062Z - success: cocos-analytics loaded
+2018-09-13T15:44:23.070Z - success: console loaded
+2018-09-13T15:44:23.115Z - success: fb-instant-games loaded
+2018-09-13T15:44:23.123Z - success: hierarchy loaded
+2018-09-13T15:44:23.128Z - success: inspector loaded
+2018-09-13T15:44:23.130Z - success: keystore loaded
+2018-09-13T15:44:23.136Z - success: node-library loaded
+2018-09-13T15:44:23.138Z - success: package-asset loaded
+2018-09-13T15:44:23.140Z - success: preferences loaded
+2018-09-13T15:44:23.144Z - success: project-exporter loaded
+2018-09-13T15:44:23.165Z - success: project-importer loaded
+2018-09-13T15:44:23.170Z - success: project-settings loaded
+2018-09-13T15:44:23.175Z - success: ui-kit loaded
+2018-09-13T15:44:23.181Z - success: scene loaded
+2018-09-13T15:44:23.183Z - success: sprite-editor loaded
+2018-09-13T15:44:23.188Z - success: store loaded
+2018-09-13T15:44:23.196Z - success: timeline loaded
+2018-09-13T15:44:23.196Z - normal: Loading builtin packages
+2018-09-13T15:44:23.202Z - success: asset-db-debugger loaded
+2018-09-13T15:44:23.204Z - success: color-picker loaded
+2018-09-13T15:44:23.205Z - success: jsb-adapter loaded
+2018-09-13T15:44:23.209Z - success: package-manager loaded
+2018-09-13T15:44:23.321Z - success: qqplay-adapter loaded
+2018-09-13T15:44:23.330Z - success: sdkbox loaded
+2018-09-13T15:44:23.337Z - success: tester loaded
+2018-09-13T15:44:23.344Z - success: ui-grid loaded
+2018-09-13T15:44:23.349Z - success: ui-kit-preview-extra loaded
+2018-09-13T15:44:23.353Z - success: ui-kit-preview loaded
+2018-09-13T15:44:23.358Z - success: ui-tree loaded
+2018-09-13T15:44:23.359Z - success: weapp-adapter loaded
+2018-09-13T15:44:24.552Z - normal: Loading packages
+2018-09-13T15:44:24.558Z - normal: Watching packages
+2018-09-13T15:44:24.648Z - normal: Run Application
+2018-09-13T15:44:25.443Z - warn: [db-task][init] Backup unused meta file: db://assets/resources/scenes.meta
+2018-09-13T15:44:31.783Z - success: preview server running at http://localhost:7457
+2018-09-13T15:44:39.305Z - warn: Please change the definition of property 'xiaochuSound' in class 'InitLBXFrame'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    xiaochuSound: cc.Texture2D,
+    // or:
+    xiaochuSound: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    xiaochuSound: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2018-09-13T15:44:39.309Z - warn: Please change the definition of property 'anSound' in class 'NewLBXKuai'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    anSound: cc.Texture2D,
+    // or:
+    anSound: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    anSound: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2018-09-13T15:44:39.310Z - warn: Please change the definition of property 'fangxiaSound1' in class 'NewLBXKuai'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    fangxiaSound1: cc.Texture2D,
+    // or:
+    fangxiaSound1: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    fangxiaSound1: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2018-09-13T15:44:39.310Z - warn: Please change the definition of property 'fangxiaSound2' in class 'NewLBXKuai'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    fangxiaSound2: cc.Texture2D,
+    // or:
+    fangxiaSound2: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    fangxiaSound2: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2018-09-13T15:44:39.311Z - warn: Please change the definition of property 'fangxiaSound3' in class 'NewLBXKuai'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    fangxiaSound3: cc.Texture2D,
+    // or:
+    fangxiaSound3: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    fangxiaSound3: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2018-09-13T15:44:39.311Z - warn: Please change the definition of property 'canNotSound1' in class 'NewLBXKuai'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    canNotSound1: cc.Texture2D,
+    // or:
+    canNotSound1: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    canNotSound1: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2018-09-13T15:44:39.312Z - warn: Please change the definition of property 'canNotSound2' in class 'NewLBXKuai'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    canNotSound2: cc.Texture2D,
+    // or:
+    canNotSound2: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    canNotSound2: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2018-09-13T15:44:39.315Z - warn: Please change the definition of property '音效' in class 'ButtonControl'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    音效: cc.Texture2D,
+    // or:
+    音效: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    音效: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2018-09-13T15:46:59.475Z - error: TypeError: Cannot read property '_uuid' of null
+    at call__preloadInTryCatch (eval at misc.tryCatchFunctor_EDITOR (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/utils/misc.js:1:1), <anonymous>:7:28)
+    at CCClass._invoke (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/component-scheduler.js:185:29)
+    at CCClass.invoke (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/node-activator.js:49:22)
+    at CCClass.activateNode (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/node-activator.js:164:34)
+    at cc_Scene._activate (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/CCScene.js:60:44)
+    at cc.Director.runSceneImmediate (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/CCDirector.js:217:23)
+    at /Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/CCDirector.js:327:42
+    at CCLoader.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCAssetLibrary.js:63:25)
+    at /Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/CCLoader.js:134:46
+2018-09-13T15:47:47.470Z - info: shutdown preview server

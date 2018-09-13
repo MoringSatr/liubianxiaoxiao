@@ -1,9 +1,15 @@
+"use strict";
+cc._RF.push(module, '2efffJ1hlRMy6NEHp7IMcJi', 'BgRandomMove');
+// script/BgRandomMove.js
+
+"use strict";
+
 var _properties;
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 cc.Class({
-    "extends": cc.Component,
+    extends: cc.Component,
 
     properties: (_properties = {}, _defineProperty(_properties, "X轴移动距离", 1), _defineProperty(_properties, "y轴移动距离", 1), _defineProperty(_properties, "移动速度(单位：像素/秒)", 20), _defineProperty(_properties, "随机量", 10), _properties),
 
@@ -25,8 +31,10 @@ cc.Class({
         this.randomMove();
     }
 
-});
-// called every frame, uncomment this function to activate update callback
-// update: function (dt) {
+    // called every frame, uncomment this function to activate update callback
+    // update: function (dt) {
 
-// },
+    // },
+});
+
+cc._RF.pop();

@@ -1,10 +1,16 @@
+"use strict";
+cc._RF.push(module, '7d9dd4jmi9I7Z1fgVPHfEXS', 'StartBtnCp');
+// script/StartBtnCp.js
+
+"use strict";
+
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 cc.Class({
-    "extends": cc.Component,
+    extends: cc.Component,
 
     properties: _defineProperty({}, "游戏界面", {
-        "default": null,
+        default: null,
         type: cc.Prefab
     }),
 
@@ -27,8 +33,10 @@ cc.Class({
     // use this for initialization
     onLoad: function onLoad() {}
 
-});
-// called every frame, uncomment this function to activate update callback
-// update: function (dt) {
+    // called every frame, uncomment this function to activate update callback
+    // update: function (dt) {
 
-// },
+    // },
+});
+
+cc._RF.pop();

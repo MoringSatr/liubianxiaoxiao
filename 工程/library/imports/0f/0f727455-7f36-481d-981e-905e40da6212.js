@@ -1,5 +1,11 @@
+"use strict";
+cc._RF.push(module, '0f727RVfzZIHZgekF5A2mIS', 'ZIndexSet');
+// script/ZIndexSet.js
+
+"use strict";
+
 cc.Class({
-    "extends": cc.Component,
+    extends: cc.Component,
 
     properties: {
         zIndex: 0
@@ -11,3 +17,5 @@ cc.Class({
     }
 
 });
+
+cc._RF.pop();

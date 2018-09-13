@@ -1,3 +1,9 @@
+"use strict";
+cc._RF.push(module, '1f57fJXW/5MwpzGE2th5qGE', 'Util');
+// script/gameCore/common/Util.js
+
+"use strict";
+
 /**
  * Created by Administrator on 2016/5/6.
  */
@@ -44,3 +50,5 @@ var _p = {
 };
 
 module.exports = _p;
+
+cc._RF.pop();
